@@ -1,0 +1,187 @@
+
+body {
+    font-family: 'Russo One', sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+
+header {
+    margin-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* main section {
+    text-align: center;
+} */
+
+main {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+
+section div {
+    text-align: center;
+    /* display: inline-block; */
+    /* width: 500px; */
+    /* margin: 10px;
+    padding: 10px; */
+    border: 1px solid #000;
+    
+}
+
+section img {
+    margin-bottom: 10px;
+}
+
+
+table {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+
+form {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input, button {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    border-top: 2px solid #000;
+    text-align: center;
+}
+
+/*? ================== RESPONSIVE ================== ?*/
+
+@media (max-width: 992px) {
+    body {
+        margin: 10px;
+    }
+
+    section div {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    table {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+        font-size: 16px;
+    }
+
+    main {
+        padding: 5px;
+    }
+
+    section div {
+        margin: 10px auto;
+        width: 100%;
+    }
+
+    section img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    form, table {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+
+    th, td {
+        font-size: 13px;
+        padding: 6px;
+    }
+
+    input, button {
+        width: 100%;
+        padding: 8px;
+    }
+
+    table {
+        font-size: 14px;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 400px) {
+
+    body {
+        margin: 5px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    th, td {
+        font-size: 12px;
+    }
+
+    section div {
+        padding: 8px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}

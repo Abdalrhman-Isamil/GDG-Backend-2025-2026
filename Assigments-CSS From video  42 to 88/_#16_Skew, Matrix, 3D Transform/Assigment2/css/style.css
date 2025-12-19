@@ -1,0 +1,11 @@
+:root {
+    --main-color: #009688;
+}
+
+h1 {
+    margin: 40px auto;
+    width: fit-content;
+    background-color: var(--main-color);
+    color: white;
+    padding: 15px 30px;
+}

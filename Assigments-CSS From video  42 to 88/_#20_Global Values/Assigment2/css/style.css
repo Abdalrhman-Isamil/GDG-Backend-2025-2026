@@ -1,0 +1,42 @@
+.arrow {
+    position: relative;
+    width: 150px;
+    padding: 20px;
+    background: #eee;
+    text-align: center;
+    margin: 30px;
+}
+
+.arrow::before {
+    content: "";
+    position: absolute;
+    border: 10px solid transparent;
+}
+
+.arrow.top::before {
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom-color: #eee;
+}
+
+.arrow.right::before {
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    border-left-color: #eee;
+}
+
+.arrow.bottom::before {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top-color: #eee;
+}
+
+.arrow.left::before {
+    right: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    border-right-color: #eee;
+}

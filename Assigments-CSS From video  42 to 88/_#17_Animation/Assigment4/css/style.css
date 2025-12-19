@@ -1,0 +1,20 @@
+.loader {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #ddd;
+    border-top-color: #009688;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    animation: loading 1s linear infinite;
+}
+
+@keyframes loading {
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}

@@ -1,0 +1,16 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #009688;
+    margin: 40px auto;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #009688;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}

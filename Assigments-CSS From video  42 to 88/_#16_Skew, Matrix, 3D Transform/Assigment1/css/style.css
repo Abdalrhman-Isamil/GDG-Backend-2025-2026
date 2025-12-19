@@ -1,0 +1,12 @@
+:root {
+    --main-color: #009688;
+}
+
+h1 {
+    width: 150px;
+    margin: 40px auto;
+    background-color: var(--main-color);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

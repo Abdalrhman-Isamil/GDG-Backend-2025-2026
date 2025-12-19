@@ -1,0 +1,26 @@
+div {
+    width: 400px;
+    margin: 20px auto;
+
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border: 1px solid blue;
+
+    font-size: 20px;
+    text-align: center;
+
+    position: relative;
+    color: transparent;
+}
+
+div::before {
+    content: "Elzero";
+    color: white;
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

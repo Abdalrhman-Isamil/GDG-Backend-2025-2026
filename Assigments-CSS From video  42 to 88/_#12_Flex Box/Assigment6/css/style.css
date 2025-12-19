@@ -1,0 +1,45 @@
+:root {
+    --main-padding: 10px;
+    --main-bg: #ddd;
+    --main-color: #333;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.page {
+    padding: var(--main-padding);
+}
+
+.header,
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--main-padding);
+    background-color: var(--main-bg);
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.main-area {
+    display: flex;
+    margin: 10px 0;
+}
+
+.content {
+    flex: 3;
+    padding: var(--main-padding);
+    background-color: #fff;
+}
+
+.sidebar {
+    flex: 1;
+    padding: var(--main-padding);
+    background-color: #ccc;
+}

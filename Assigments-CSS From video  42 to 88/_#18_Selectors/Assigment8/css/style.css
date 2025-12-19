@@ -1,0 +1,1 @@
+div > :not(div:first-child):not(h3) { color: red; }

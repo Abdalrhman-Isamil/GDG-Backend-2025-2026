@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    gap: 100px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    border-radius: 50%; 
+    position: relative;
+    
+    -webkit-box-shadow: 
+        0 0 0 10px red,      
+        0 0 0 20px green,      
+        0 0 0 30px yellow;      
+    
+    -moz-box-shadow:red
+        0 0 0 10px red,
+        0 0 0 20px green,
+        0 0 0 30px yellow;
+    
+    box-shadow: 
+        0 0 0 10px red,
+        0 0 0 20px green,
+        0 0 0 30px yellow;
+}
+
+div::before {
+    content: "Element";
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+div:nth-child(1)::after {
+    content: "1";
+}
+
+div:nth-child(2)::after {
+    content: "2";
+}
+
+div:nth-child(3)::after {
+    content: "3";
+}

@@ -1,0 +1,30 @@
+
+
+.assign-1-shape-1{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    /* background-color: blueviolet; */
+    background-color: hsl(271, 76%, 53%);
+    /* background-color: #8a2be2; */
+}
+
+.assign-1-shape-2{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    /* background-color: blueviolet; */
+    background-color: hsla(271, 76%, 53%, 0.564);
+    /* background-color: #8a2be2; */
+}
+
+.assign-1-shape-3{
+    width: 500px;
+    text-align: center;
+    margin: auto ;
+    padding: 20px;
+    background-color: blueviolet;
+    background-color: hsla(271, 76%, 53%, 0.108);
+    /* background-color: #8a2be2; */
+}

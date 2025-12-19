@@ -1,0 +1,25 @@
+
+div{
+    background-color: beige;
+    padding: 30px;
+    margin: 20px;
+    display:inline-block;
+}
+
+.s11{
+    
+    border: 5px solid red;
+    outline:5px solid black;
+    
+}
+
+.s22{
+    border: 5px solid blue green;
+    outline:5px solid black;
+}
+
+.s33{
+
+    border: 5px dashed red green blue yellow;
+    outline:5px solid black;
+}

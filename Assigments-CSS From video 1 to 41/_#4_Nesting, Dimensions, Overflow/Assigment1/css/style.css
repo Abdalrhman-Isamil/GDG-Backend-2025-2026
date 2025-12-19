@@ -1,0 +1,14 @@
+
+.parent .child span.title {
+    color: red;
+}
+
+/* * بيختار الابن المباشر  */
+.parent > span.title {
+    color: blue;
+}
+
+p,
+div.title {
+    color: green;
+}

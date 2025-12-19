@@ -1,0 +1,15 @@
+a{
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    display: block;
+    margin: 20px auto;
+    padding:20px 40px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    background-color: darkcyan;
+    color: white;
+    border-bottom: 15px solid rgb(12, 75, 75);
+    text-transform: capitalize;
+}
